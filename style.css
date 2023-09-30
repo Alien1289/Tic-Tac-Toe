@@ -1,0 +1,124 @@
+/* css code goes here  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #66BB6A;
+}
+
+header {
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 10px;
+}
+
+#gameBlock {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#playerTurn {
+    text-align: center;
+    margin-top: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+#p1-turn-section,
+#p2-turn-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+#p1,
+#p2,
+#start{
+    margin-bottom: 10%;
+    height: 45px;
+    width: 315px;
+    background-color: lightgray;
+    cursor: pointer;
+    border: 1px lavender;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+#start{
+    margin-bottom: 15px;
+}
+#p1,
+#p2 {
+    padding: 7px;
+}
+
+#p2:hover {
+    background-color: azure;
+    transform: scale(1.2);
+}
+
+#p1:hover {
+    background-color: azure;
+    transform: scale(1.2);
+}
+
+
+#start:hover {
+    background-color: azure;
+    transform: scale(1.2);
+    border: 1px solid grey;
+}
+
+#start:active {
+    transform: scale(0.95);
+}
+
+#label-1,
+#label-2 {
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+#reveal {
+    margin-top: 5%;
+}
+
+.grid:hover {
+    transform: scale(1.05);
+
+}
+
+.grid::selection {
+    transform: scale(0.98);
+    transition: background-color 5s ease-in;
+
+}
+h3{
+    margin-top: 5px;
+}
+#section-1{
+    margin-top: 10%;
+}

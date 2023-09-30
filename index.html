@@ -1,0 +1,64 @@
+<!-- html code goes here -->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqtkSknaVLaWVHurcWjlN7M94Vwt4tidDMsy6g8VACu1lJDi6wg6Uw1FKEHBCVlV0wYCo&usqp=CAU">
+    <title>Tic-Tac-Toe</title>
+    <meta name="author" content="Pranavarsh" />
+    <meta name="github-id" content="Alien1289" />
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    <section id = "section-1">   
+        <form id="form">
+            <label for="p1">
+                <h3 id="label-1">Player 1</h3>
+            </label>
+            <input type="text" id="p1" placeholder="Your Name" />
+
+            <label for="p2">
+                <h3 id="label-2">Player 2</h3>
+            </label>
+            <input type="text" id="p2" placeholder="Your Name" />
+
+            <button id="start">LETS Go !!!!!!!</button>
+            <h3 id="error"></h3>
+
+        </form>
+        
+    </section>
+    <main id="reveal">
+        <div id="gameBlock">
+            <button id="1" class="grid"></button>
+            <button id="2" class="grid"></button>
+            <button id="3" class="grid"></button>
+            <button id="4" class="grid"></button>
+            <button id="5" class="grid"></button>
+            <button id="6" class="grid"></button>
+            <button id="7" class="grid"></button>
+            <button id="8" class="grid"></button>
+            <button id="9" class="grid"></button>
+        </div>
+
+        <div id="playerTurn">
+            <section id="p1-turn-section">
+                <h3 id="p1-text"></h3>
+                <h3 id="play1"></h3>
+            </section>
+            <section id="p2-turn-section">
+                <h3 id="p2-text"></h3>
+                <h3 id="play2"></h3>
+            </section>
+        </div>
+    </main>
+    <script src="./scipt.js"></script>
+</body>
+
+</html>
